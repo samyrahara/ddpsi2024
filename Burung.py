@@ -9,8 +9,14 @@ class Burung(Animal):
     def cetak_burung(self):
         super().cetak()
         print("jenis \t\t\t: ", self.jenis,
-            "\nbunyi \t\t\t: ", self.bunyi)
+            "\nbunyi \t\t\t: ", self.bunyi,
+            "\n------------------------")
+        
+    
         
 Hantu = Burung("hantu", "daging", "hutan tropis", "Bertelur", "Barn Owl", "hoo-hoo")
+Hantu.cetak_burung()
+
+Hantu = Burung("elang", "daging", "amerika utara", "Bertelur", "Elang Laut Kepala Putih", "Klee-klee-klee-klee")
 Hantu.cetak_burung()
 

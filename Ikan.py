@@ -9,7 +9,13 @@ class Ikan(Animal):
     def cetak_ikan(self):
         super().cetak()
         print("jenis \t\t\t: ", self.jenis,
-            "\ncorak \t\t\t: ", self.corak)
+            "\ncorak \t\t\t: ", self.corak,
+            "\n------------------------")
+        
+    
         
 Mujair = Ikan("mujair", "plankton", "sungai", "Bertelur", "Cichlidae", "kecoklatan")
 Mujair.cetak_ikan()
+
+Nila = Ikan("nila", "plankton", "sungai", "Bertelur", "Nila Merah ", "pink keemasan")
+Nila.cetak_ikan()
